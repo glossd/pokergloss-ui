@@ -8,15 +8,21 @@ I want to thank two people who worked for me on the UI: [Kirill Vasilev](https:/
 The project was bootstrapped with create-react-app and later upgraded to NextJS for SEO purposes. 
 Original project was private and hosted in GitLab. It didn't have a license because I did not intend to public source it.
 ### Configuration
-There is `proxyMod` allowing you to proxy to you local services like table.  
-To start it locally you need to run first `npm run proxyStart`.
-which will launch Golang server on 9999 port (for source code look into src/backend/devproxy).  
-Then you need to start the react app with `npm run startProxyMode`.
-
 Run this before `npm install`, because the roulette is using react 1.18 as peer dep.
 ```sh
 npm config set legacy-peer-deps true
 ```
+
+To run locally to the production API, run your browser with disabled cors.   
+E.g. Chrome on MacOS:
+```shell
+open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+```
+
+There is `proxyMod` allowing you to proxy to you local services like table.  
+To start it locally you need to run first `npm run proxyStart`.
+which will launch Golang server on 9999 port (for source code look into src/backend/devproxy).  
+Then you need to start the react app with `npm run startProxyMode`.
 
 ### License
 I have used the MongoDB license because I don't want anyone using this commercially without my permission.

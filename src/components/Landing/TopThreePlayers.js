@@ -4,6 +4,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 import {connect} from "react-redux";
 import {setProfileUsername} from "../../redux/actions/profile";
 import {useRouter} from "next/router";
+import {avatarUrlOrDefault} from "../../auth";
 
 const portraitStyles = makeStyles(() => ({
   root: {
@@ -218,7 +219,7 @@ const TopThreePlayers = ({ratings}) => {
               style={playerRootStyle(player.rank)}
               onClick={() => openUserProfile(player.username)}
             >
-              <img src={player.picture} className={classes.picture} style={playerPictureStyle(player.rank)} alt=""/>
+              <img src={avatarUrlOrDefault(player.picture)} className={classes.picture} style={playerPictureStyle(player.rank)} alt=""/>
               <div className={classes.banner}>
                 <div>{player.username}</div>
                 <div>{player.chips}</div>
