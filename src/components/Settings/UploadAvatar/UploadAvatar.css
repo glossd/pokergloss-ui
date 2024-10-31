@@ -1,0 +1,44 @@
+.avatar {
+    background-color: #070f14;
+    border-radius: 8px;
+    display: flex;
+    width: 40vw;
+}
+
+.avatar-preview {
+    margin: auto;
+}
+
+.avatar-img-preview {
+    border: solid white 1.5px;
+    border-radius: 50%;
+}
+
+.avatar-upload-btn {
+    margin-top: 12%;
+    text-align: center;
+}
+
+.avatar-upload-message {
+    color: #3dd918;
+    margin-top: 3%;
+}
+
+.upload-avatar-container {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.upload-avatar-info {
+    color: white;
+    padding-left: 2vw;
+}
+
+.upload-avatar-info h5 {
+    padding: 0.5vw 0;
+}
+
+.default-avatar {
+    border-radius: 50%;
+}

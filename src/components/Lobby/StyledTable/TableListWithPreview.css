@@ -1,0 +1,64 @@
+.Table {
+    font-weight: bold;
+    color: white;
+}
+
+.lobby-checkboxes label {
+    width: max-content;
+    margin-right: 2vw;
+    color: white;
+}
+
+.selected-table-name {
+    position: relative;
+    top: 22%;
+    color: #d0f4ff;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.selected-table {
+    background-color: rgb(77 132 165) !important;
+}
+
+.hide-create {
+    display: flex;
+    width: 63%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1vw;
+}
+
+.enter-the-room {
+    position: relative;
+    text-align: center;
+    top: 22%;
+}
+
+.lobby-loader {
+    margin-top: 10vw;
+}
+
+.market-prize-crown {
+    color: #00ff00 !important;
+}
+
+.marker-prize-default {
+    color: #00c5ff !important;
+}
+
+.preview-position-common {
+    right: 2%;
+    width: 30%;
+    height: 30vw;
+    position: fixed;
+}
+
+.preview-position-desktop {
+    top: 26%;
+}
+
+.preview-position-mobile {
+    top: 43%;
+}

@@ -1,0 +1,22 @@
+.inventory-container {
+    padding: 5vw 0;
+    display: flex;
+    justify-content: center;
+}
+
+.inventory-cell-expiration {
+    color: white;
+    text-align: center;
+}
+
+.inventory-message-link {
+    color: #00c1ff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.inventory-purchase-link {
+    margin: 5px 15px 0 0;
+    font-size: 22px;
+    text-align: end;
+}

@@ -1,0 +1,66 @@
+.card-main-content {
+    position: absolute;
+}
+
+.card-suit {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.card-people-picture {
+    position: relative;
+    bottom: 0.5vw;
+    right: 0.1vw;
+}
+
+.st1 {
+    display: inline;
+}
+
+.st2 {
+    fill: #E2CF00;
+}
+
+.st3 {
+    fill: #131F67;
+}
+
+.st4 {
+    fill: #D40000;
+}
+
+.st5 {
+    display: inline;
+    fill: #D40000;
+}
+
+.st6 {
+    display: inline;
+    fill: #E2CF00;
+}
+
+.st7 {
+    display: inline;
+    fill: #131F67;
+}
+
+.st8 {
+    display: inline;
+    fill: #100F08;
+}
+
+.diamonds-fill {
+    fill: #ff1e04;
+}
+
+.hearts-fill {
+    fill: #cb1e02;
+}
+
+.spades-fill {
+    fill: #2d0158;
+}
+
+.clubs-fill {
+    fill: #1c1c1c;
+}

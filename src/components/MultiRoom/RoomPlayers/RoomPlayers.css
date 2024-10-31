@@ -1,0 +1,21 @@
+.multi-table-players {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 0.3vw 0;
+}
+
+.players-list-title {
+    padding-bottom: 1vw;
+    color: white;
+    font-weight: bolder;
+}
+
+.multi-table-player-indention {
+    margin: 0 1vw;
+}
+
+.multi-table-player-stack {
+    margin-left: auto;
+    color: #20a500;
+}

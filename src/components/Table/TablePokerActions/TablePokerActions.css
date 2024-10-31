@@ -1,0 +1,34 @@
+.intents-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.intents {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.intent-checkbox {
+    color: white;
+}
+
+.back-button-desktop {
+    position: absolute;
+    left: 51%;
+}
+
+.back-button-mobile {
+    position: absolute;
+    right: 1%;
+    top: 13%;
+}
+
+.backend-error-massage {
+    position: absolute;
+    color: red;
+    width: 25vw;
+    right: 2%;
+    bottom: 25%;
+    text-align: end;
+}

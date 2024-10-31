@@ -1,0 +1,40 @@
+.breadcrumb-links {
+    font-size: 1.7vw;
+}
+
+.navbar-user-avatar-level-common {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #4ce015;
+    font-weight: bold;
+    padding: 0 0.5vw;
+    text-align: center;
+}
+
+.tooltip-user-info {
+    background-color: #06161f;
+    color: #fff;
+    border-radius: 0.3vw;
+    padding: 0.3vw;
+    font-size: 16px;
+}
+
+.navbar-user-info-column-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 65px;
+}
+
+.header-logo {
+    width: 3.5vw;
+}
+.header-logo:hover {
+    filter: grayscale(85%);
+}
+@media (orientation: portrait) {
+    .header-logo {
+        width: 8.5vw;
+        filter: grayscale(30%);
+    }
+}

@@ -1,0 +1,29 @@
+.action-btn-root {
+    position: absolute;
+    width: 15%;
+}
+
+.first-action-btn {
+    right: 34.5%;
+}
+
+.second-action-btn {
+    right: 17.75%;
+}
+
+.quick-bets {
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+.quick-bet-btn {
+    margin: 0 0.5vw;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.raise-slider-root {
+    position: absolute;
+}

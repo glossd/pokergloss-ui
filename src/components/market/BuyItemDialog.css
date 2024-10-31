@@ -1,0 +1,54 @@
+.market-dialog-container {
+    display: flex;
+    justify-content: center;
+}
+
+.market-items-number:disabled {
+    background-color: #000000;
+}
+
+.market-horizon-line {
+    background: white;
+}
+
+.market-total-price {
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.market-items-number-buttons {
+    margin-top: 1rem;
+}
+
+.market-item-button {
+    background: rgb(0 118 255);
+    padding: 7px 25px;
+}
+
+.market-item-button:hover {
+    background: rgb(25 106 193);
+}
+.market-item-button:disabled {
+    background-color: #172b37;
+}
+.market-item-button:active {
+    background: rgb(8, 51, 109);
+}
+.market-item-days-button-selected {
+    background: rgb(0 118 255);
+}
+.market-item-days-button-unselected {
+    background: #172b37;
+}
+
+.market-dialog-bought-message {
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.market-dialog-error {
+    color: red;
+    font-size: 1.25em;
+}

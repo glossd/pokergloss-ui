@@ -1,0 +1,8 @@
+.buyin-slider-min-max {
+    display: flex;
+    flex-direction: row;
+}
+
+.buyin-button-group-min-max {
+    margin-left: 1vw;
+}

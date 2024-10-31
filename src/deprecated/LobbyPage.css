@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    background: #070f14;
+    margin: 0;
+}
+
+.lobby-tab-panel {
+    min-height: calc(100vh - 159px);
+}
+
+.welcome-message {
+    text-align: center;
+}
+
+.welcome-chip-image {
+    height: 40px;
+    width: 40px;
+}
+
+.displayed {
+    width: 40%;
+    height: 40%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.bonusDay {
+    float: left;
+    line-height: 50px;
+    font-size: 20px;
+    background: #1e90ff;
+    border-radius: 5px;
+    color: white;
+    width: 105px;
+    margin: 15px 5px 2px 5px;
+    text-align: center;
+}
+
+.day-number {
+    float: left;
+    line-height: 30px;
+    font-size: 20px;
+    background: #101b46;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    width: 105px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.lobby-type-tabs {
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    z-index: 1;
+}
+
+.absolute-tabs {
+    position: absolute;
+}

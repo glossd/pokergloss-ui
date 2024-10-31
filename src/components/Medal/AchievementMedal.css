@@ -1,0 +1,62 @@
+.achievement-medal-container {
+    filter: drop-shadow(2px 4px 6px black);
+    color: white;
+}
+
+.achievement-medal-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    font-weight: bolder;
+    white-space: pre;
+}
+
+.achievement-medal-name {
+    align-items: center;
+}
+
+.achievement-medal-level {
+    align-items: flex-end;
+}
+
+.tooltip-achievement-cell-common {
+    display: none;
+    background-color: #06161f;
+    color: #fff;
+    border-radius: 0.3vw;
+    padding: 0.3vw;
+    position: relative;
+    bottom: 2vw;
+    text-align: center;
+    margin: 0 -2vw;
+}
+
+.tooltip-achievement-cell-desktop {
+    font-size: 1vw;
+}
+.tooltip-achievement-cell-mobile {
+    font-size: 1vw;
+}
+
+@media (max-width: 650px) {
+    .tooltip-achievement-cell-mobile {
+        font-size: 1.3vw;
+    }
+}
+
+.achievement-medal-container .tooltip-achievement-cell-common::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #06161f transparent;
+}
+
+.achievement-medal-container:hover .tooltip-achievement-cell-common {
+    visibility: visible;
+    display: block;
+}

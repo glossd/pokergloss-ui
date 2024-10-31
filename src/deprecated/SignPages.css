@@ -1,0 +1,125 @@
+.sign-page {
+    height: 81vh;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.sign-page > div {
+    width: 100%;
+    max-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-page h1 {
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-bottom: 1.3vw;
+}
+
+.sign-page-form-control-container {
+    margin-bottom: 1.3vw;
+}
+
+.sign-page-form input {
+    color: white;
+}
+
+.sign-page-button {
+    text-align: center;
+}
+
+.sign-page-links {
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.sign-link {
+    margin: 0 2%;
+    color: #79b1ee;
+}
+
+@media (max-width: 500px) {
+    .sign-page-form-control-container {
+        margin-bottom: 6vw;
+    }
+    .sign-page > div {
+        width: 80%;
+    }
+    .sign-link {
+        font-size: 3.2vw;
+    }
+}
+
+.sign-page-poker-blow-logo {
+    max-width: 100px;
+    width: calc(1px + 20vw);
+    position: absolute;
+}
+
+.sign-page-poker-blow-logo:hover {
+    filter: grayscale(85%);
+}
+
+.loader {
+    text-align: center;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #55b8f1;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #55b8f1 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.sign-error {
+    color: red;
+}
+
+.sign-message {
+    color: green;;
+}
+
+.MuiInput-underline:after {
+    border-bottom: solid white 1px !important;
+}
+
+.MuiInput-underline:before {
+    border-bottom: solid white 1px !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: solid white 1px !important;
+}

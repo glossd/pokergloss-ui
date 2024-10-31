@@ -1,0 +1,40 @@
+.table-user-list-popover {
+    background-color: #06161f;
+    color: #fff;
+    border-radius: 0.3vw;
+    padding: 0.3vw;
+    position: relative;
+    left: 2vw;
+    text-align: center;
+    margin: 0 -2vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 37.5vw;
+    z-index: 2;
+}
+
+.table-user-list-popover-cell {
+    min-width: 10.5vw;
+    display: flex;
+    margin: 0.2vw;
+    font-size: 1vw;
+    border: solid 1px white;
+    border-radius: 18vw / 20vw;
+    background: #346e80;
+}
+
+.table-user-list-popover-avatar {
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+}
+.table-user-list-popover-username {
+    position: relative;
+    top: 0.2vw;
+    left: 0.2vw;
+}
+
+.binoculars-icon {
+    width: 1.5em;
+    height: 1em;
+}

@@ -1,0 +1,25 @@
+.NotTransparentButton {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    background: #05ab05;
+    border-width: 0;
+    cursor: not-allowed;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.NotTransparentButton:focus {
+    outline: none;
+}
+
+.NotTransparentButton:hover {
+    background: #07b307;
+}
+
+.NotTransparentButton:disabled {
+    background-color: rgba(0, 0, 0, 0.26);
+}

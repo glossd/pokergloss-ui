@@ -1,0 +1,38 @@
+.multi-table-preview {
+    display: flex;
+    width: 66%;
+}
+
+.multi-table-preview-tables {
+    width: 66%;
+    padding: 1vw;
+}
+
+.multi-table-preview-players {
+    width: fit-content;
+    padding: 1vw;
+}
+
+.selected-table {
+    background-color: rgb(77 132 165) !important;
+}
+
+.multi-table-player {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 0.3vw 0;
+}
+
+.multi-table-player-indent {
+    margin-right: 1vw;
+}
+
+.multi-table-player-picture {
+    height: 2vw;
+    width: 2vw;
+}
+
+.multi-open-table-btn {
+    margin-top: 1vw;
+}

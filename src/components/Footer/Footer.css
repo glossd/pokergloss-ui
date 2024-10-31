@@ -1,0 +1,49 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.footer-container-font {
+    font-size: 1.2vw;
+}
+.footer-container-font-mobile {
+    font-size: 2vw;
+}
+
+.footer-container-column {
+    width: 33%;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-policy-terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-button-policy-terms {
+    color: white;
+    background: rgba(0,0,0,0);
+    border: none;
+    width: max-content;
+    font-size: inherit;
+}
+.footer-button-policy-terms:hover {
+    color: #00c1ff;
+}
+
+@media (max-width: 650px) {
+    .footer-container-font-mobile {
+        font-size: 3.5vw;
+    }
+    .footer-policy-terms {
+        flex-direction: column;
+    }
+}

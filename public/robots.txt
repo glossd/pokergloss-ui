@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pokergloss.com
+
+# Sitemaps
+Sitemap: https://pokergloss.com/sitemap.xml

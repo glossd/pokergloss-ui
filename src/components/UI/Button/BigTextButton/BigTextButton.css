@@ -1,0 +1,28 @@
+.ButtonPoker {
+    display: inline-block;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    background: rgb(16 134 26);
+    border-width: 0;
+    cursor: not-allowed;
+}
+
+.ButtonPoker:focus {
+    outline: none;
+}
+
+.ButtonPoker:hover {
+    background: rgba(14, 189, 28, 0.5);
+}
+
+.ButtonPoker:disabled {
+    background-color: #172b37;
+}
+
+.ButtonPoker:active {
+    background: rgba(20, 106, 21, 0.5);
+}

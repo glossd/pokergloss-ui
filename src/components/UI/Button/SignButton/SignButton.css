@@ -1,0 +1,21 @@
+.SignButton {
+    padding: 0.4vw 5vw;
+    border-radius: 2px;
+    color: white;
+    background: rgb(77 132 165);
+    border-width: 0;
+    cursor: not-allowed;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.SignButton:focus {
+    outline: none;
+}
+
+.SignButton:hover {
+    background: rgb(23 43 55);
+}
+
+.SignButton:disabled {
+    background-color: rgba(0, 0, 0, 0.26);
+}

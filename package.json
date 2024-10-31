@@ -1,0 +1,92 @@
+{
+  "name": "pokergloss-ui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/styles": "^4.10.0",
+    "@pokergloss/achievement-client-typescript": "0.0.1",
+    "@pokergloss/assignment-client-typescript": "0.0.1",
+    "@pokergloss/bank-client-typescript": "0.0.1",
+    "@pokergloss/bonus-client-typescript": "0.0.1",
+    "@pokergloss/browser-logs-client-typescript": "0.0.1",
+    "@pokergloss/market-client-typescript": "0.0.1",
+    "@pokergloss/messenger-client-typescript": "0.0.1",
+    "@pokergloss/profile-client-typescript": "0.0.1",
+    "@pokergloss/survival-client-typescript": "^0.0.1",
+    "@pokergloss/table-chat-client-typescript": "0.0.1",
+    "@pokergloss/table-client-typescript": "0.0.1",
+    "@pokergloss/table-stream-client-typescript": "0.0.1",
+    "@pokergloss/ws-client-typescript": "0.0.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.2",
+    "firebase": "^7.18.0",
+    "i18next": "^19.8.2",
+    "jquery": "^3.5.1",
+    "lottie-web": "^5.7.6",
+    "moment": "^2.29.1",
+    "next": "^10.2.3",
+    "next-i18next": "^8.5.3",
+    "pokersolver": "^2.1.4",
+    "public-ip": "^4.0.3",
+    "react": "^16.13.1",
+    "react-avatar-edit": "^0.8.3",
+    "react-compound-timer": "^1.2.0",
+    "react-custom-roulette": "^1.1.8",
+    "react-detect-offline": "^2.4.3",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^16.13.1",
+    "react-ga": "^3.1.2",
+    "react-infinite-scroll-component": "^5.1.0",
+    "react-linkify": "^1.0.0-alpha",
+    "react-redux": "^7.2.1",
+    "react-speech-recognition": "^3.7.0",
+    "react-spring": "^9.2.3",
+    "react-youtube": "^7.12.0",
+    "reconnecting-websocket": "^4.4.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "regenerator-runtime": "^0.13.7",
+    "use-scroll-lock": "^1.0.0",
+    "use-sound": "^4.0.0"
+  },
+  "scripts": {
+    "start": "next dev",
+    "startProxyMode": "NODE_OPTIONS=--openssl-legacy-provider NEXT_PUBLIC_USE_PROXY=true next dev",
+    "startDev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "startCors": "NEXT_PUBLIC_CORS=true NEXT_PUBLIC_DEV=true next dev",
+    "startLocal": "NEXT_PUBLIC_LOCAL=true next dev",
+    "startProd": "next start -p 3000",
+    "startProdLocal": "NODE_OPTIONS=--openssl-legacy-provider next start -p 3000",
+    "proxyStart": "if [ \"$(uname)\" = \"Darwin\" ]; then src/backend/devproxy/proxy-mac; else src/backend/devproxy/proxy-inux; fi",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "postbuild": "next-sitemap",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.2",
+    "next-sitemap": "^1.6.140",
+    "postcss": "^8.3.5",
+    "react-test-renderer": "^17.0.1"
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 3 safari version"
+    ]
+  }
+}

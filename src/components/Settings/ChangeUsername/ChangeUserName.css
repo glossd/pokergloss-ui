@@ -1,0 +1,27 @@
+.warning-change-username {
+    color: #3dd918;
+    margin-right: 5px;
+}
+
+.label-change-username {
+    color: white;
+    margin-right: 5px;
+}
+
+.change-username-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.change-username-container input {
+    margin-bottom: 2vw;
+}
+
+.error-change-user-name-message {
+    color: red;
+}
+
+.success-change-user-name-message {
+    color: green;
+}

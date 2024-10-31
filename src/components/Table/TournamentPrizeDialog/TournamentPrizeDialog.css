@@ -1,0 +1,17 @@
+.tournament-prize-dialog-root {
+    text-align: center;
+}
+
+.prize-dialog-message-for-winner {
+    max-width: fit-content;
+    font-size: 1.6rem;
+    color: #70ff00;
+}
+
+.tournament-prize-dialog-market-prize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #00c5ff;
+}

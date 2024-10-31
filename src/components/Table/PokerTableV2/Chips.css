@@ -1,0 +1,47 @@
+.list-stack-chips {
+    display: flex;
+    align-items: flex-end;
+}
+
+.stack-chips {
+}
+
+.chip-img {
+    width: 1.8vw;
+    height: 1.35vw;
+}
+
+.poker-chip {
+    height: 0.2vw;
+    position: relative;
+    line-height: 0;
+}
+
+.poker-chip-type-number {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: 'Helvetica Neue', monospace;
+    color: black;
+    font-weight: bold;
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.poker-chip-type-with-one-symbol {
+    font-size: 1vw;
+    margin-top: -0.06vw;
+}
+
+.poker-chip-type-with-two-symbols {
+    font-size: 0.86vw;
+}
+
+.poker-chip-type-with-three-symbols {
+    font-size: 0.65vw;
+    margin-top: 0.15vw;
+}
+
+.poker-chip-type-with-four-symbols {
+    font-size: 0.5vw;
+    margin-top: 0.25vw;
+}

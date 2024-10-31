@@ -1,0 +1,12 @@
+.MuiPaginationItem-root {
+    color: white !important;
+}
+
+.rating-current-user-row {
+    background-color: rgb(77 132 165) !important;
+}
+
+.rating-error-message {
+    color: red;
+    text-align: center;
+}

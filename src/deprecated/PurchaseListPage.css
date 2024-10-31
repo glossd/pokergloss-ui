@@ -1,0 +1,15 @@
+.purchase-empty-message {
+    color: white;
+    font-size: 2vw;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+
+.purchase-empty-message-link {
+    color: #00c1ff;
+    cursor: pointer;
+    text-decoration: underline;
+}

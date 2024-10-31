@@ -1,0 +1,110 @@
+.profile-page-container {
+    margin: 2vw 5vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-info-container {
+    display: flex;
+    margin: 1vw;
+}
+
+.main-info-picture {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.main-info-username {
+    font-size: 4vw;
+    font-family: 'Lobster', Georgia, Times, serif;
+}
+
+.main-info-player-level {
+    position: relative;
+    z-index: 1;
+    color: #4ce015;
+    font-weight: bold;
+    text-align: center;
+    top: 7vw;
+    left: -2.5vw;
+    font-size: 2.45vw;
+}
+
+.main-info-chips-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-info-chip-img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.main-info-chip-number {
+    font-size: 2vw;
+    margin-left: 0.5vw;
+}
+
+.main-info-rating-place {
+    font-size: 2vw;
+}
+
+.profile-statistics-container {
+    width: 20vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.profile-statistics-title {
+    font-size: 2.5vw;
+}
+
+.profile-statistics-info {
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+}
+.profile-statistics-info div div {
+    margin-right: 3vw;
+}
+
+.profile-achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-bottom: 1vw;
+}
+
+.profile-achievement-cell {
+    margin-left: 1vh;
+}
+
+.profile-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin-bottom: 1vw;
+}
+
+.profile-items-cell {
+    width: 10vw;
+    height: 10vw;
+    margin-left: 1vh;
+}
+
+.profile-error-message {
+    color: red;
+}
+
+.search-profiles-container {
+    position: absolute;
+    right: 9vw;
+    z-index: 10;
+}
+
+.profile-send-message-btn {
+    margin-bottom: 1vw;
+}

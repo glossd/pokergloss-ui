@@ -1,0 +1,807 @@
+{
+  "Welcome to": "Welcome to",
+  "Sign In": "Sign In",
+  "Play Poker": "Go To Lobby",
+  "Video ID": "RmDrouSyCdg",
+  "YoutubeChanelLink": "https://www.youtube.com/channel/UCVPuqhPBVIwOI8B-b-GqkDA",
+  "VKChanelLink": "",
+  "chips": "chips",
+  "coins": "coins",
+  "Daily Tournament": "Daily Tournament",
+  "Freeroll": "Freeroll",
+  "Unregister": "Unregister",
+  "Register": "Register",
+  "place": "place",
+  "Prizes": "Prizes",
+  "for": "for",
+  "day": "day(s)",
+  "Great": "Great",
+  "Ok": "Ok",
+  "TournamentInfo": "Tournament info",
+  "sec": "sec",
+  "min": "min",
+  "Start": "Start",
+  "Tournament": "Tournament",
+  "SitNGo": "SitNGo",
+  "Go lobby": "Go lobby",
+  "YouWon": "You won",
+  "DoNotWorry": "Don't worry, next time you'll show them)",
+  "Buy": "Buy",
+  "InsufficientFunds": "Insufficient funds",
+  "days": "day(s)",
+  "item": "item",
+  "title": "Play Poker Online Free",
+  "description": "Free Texas Holdem Poker! Poker online right in your web browser, no download. Play against real people. PokerGloss is the most customizable poker you'll ever find.",
+  "keywords": "poker, play poker, play poker online, play poker free, free poker, poker game, poker games",
+  "gotIt": "Got It",
+  "ok": "OK",
+  "RoomInfo": {
+    "sitngo": {
+      "title": "Sit&Go Tournament",
+      "description": "Register for Sit&Go poker tournament."
+    },
+    "multi": {
+      "title": "Multi Table Tournament",
+      "description": "Register for multi table Sit&Go poker tournament."
+    },
+    "Starts": "Starts: ",
+    "Game": "Game: ",
+    "BuyIn": "Buy-In: ",
+    "SeatsPerTable": "Seats Per Table: ",
+    "StartingStack": "Starting Stack: ",
+    "StartingBlinds": "Starting Blinds: ",
+    "BlindsUpTime": "Blinds Up Time: ",
+    "AutostartAt": "Autostart at: ",
+    "Status": "Status: ",
+    "MinimumPlayers": "Minimum Players: ",
+    "RegisteredPlayers": "Registered Players: ",
+    "PrizePool": "Prize Pool: ",
+    "PlacesPaid": "Places Paid: ",
+    "PrizeDistribution": "Prize Distribution: ",
+    "LastTournamentVideo": "Last Tournament's Video: ",
+    "TheWinnerWillReceive": "The winner will receive",
+    "Decision": "Decision time:",
+    "BigBlind": "Big Blind:",
+    "SurvivalNote": "Winners will receive survival ticket"
+  },
+  "DayOfWeek": {
+    "1": "Mon",
+    "2": "Tue",
+    "3": "Wed",
+    "4": "Thu",
+    "5": "Fri",
+    "6": "Sat",
+    "0": "Sun"
+  },
+  "Leaderboard": "Leaderboard",
+  "Top Best Players": {
+    "Rank": "Rank",
+    "User": "User",
+    "Chips": "Chips"
+  },
+  "lobby": {
+    "live": {
+      "title": "Play poker live for free",
+      "description": "Play cash, ring, live poker at the tables you can create yourself. You can choose any table size you want, any decision timeout."
+    },
+    "sitngo": {
+      "title": "Play Sit&Go poker for free",
+      "description": "Play Sit and Go tournaments. You can create tournaments yourself. You can choose any table size, any decision timeout, any blinds up time."
+    },
+    "multi": {
+      "title": "Play Multi Sit&Go poker tournaments for free",
+      "description": "Play multi table tournaments. Freerolls every day."
+    },
+    "survival": {
+      "title": "Play poker in Survival mode",
+      "description": "Survival. Play poker, reach new levels, defeat your enemies."
+    },
+    "Open Room": "Open Room",
+    "Hide Empty": "Hide Empty",
+    "Hide Full": "Hide Full",
+    "Freerolls": "Freerolls",
+    "Survival": "Survival",
+    "beta": "beta",
+    "Create table": {
+      "Create table": "Create table",
+      "Create Sit & Go": "Create Sit & Go",
+      "Cancel": "Cancel",
+      "name": "Name",
+      "size": "Table Size",
+      "big blind": "Big Blind",
+      "decision (sec)": "Decision time",
+      "betting limit": "Betting Limit",
+      "Private": "Private",
+      "buy in": "Buy-In",
+      "blind increase (min)": "Blinds Up time",
+      "places paid": "Places Paid",
+      "StartsIn": "Autostart in"
+    },
+    "Table Headers": {
+      "Table": "Table",
+      "Game": "Game",
+      "Players": "Players",
+      "Stakes": "Stakes",
+      "Decision (sec)":  "Decision (sec)",
+      "Pot (avg)": "Pot (avg)",
+      "Stakes (avg)": "Stakes (avg)",
+      "Status": "Status",
+      "Blinds": "Blinds",
+      "Buy-in": "Buy-in",
+      "Places paid": "Places paid",
+      "Name": "Name",
+      "Start": "Start",
+      "Prize Pool": "Prize Pool",
+      "Starting Chips": "Starting Chips"
+    },
+    "DailyPopup": {
+      "DailyBonus": "Daily Bonus",
+      "YouEarned": "You earned",
+      "FreeChips": "free chips",
+      "Day": "Day",
+      "UTCMessage": "the day starts at 00.00 UTC"
+    }
+  },
+  "Header": {
+    "Lobby": "Lobby",
+    "SignIn": "Sign In",
+    "Settings": "Settings",
+    "User": "User",
+    "Rating": "Rating",
+    "Achievements": "Achievements",
+    "ChipHistory": "Chip History",
+    "Market": "Market",
+    "Inventory": "Inventory",
+    "PurchaseList": "My Purchases",
+    "AboutUs": "About Us",
+    "Menu": {
+      "Profile": "Profile",
+      "Inventory": "Inventory",
+      "Market": "Market",
+      "Settings": "Settings",
+      "History": "History",
+      "Achievements": "Achievements",
+      "Logout": "Logout",
+      "Rating": "Rating",
+      "Tutorial": "Tutorial"
+    },
+    "Tooltip": {
+      "Level": "Level",
+      "LeftToTheNextLevel": "left to the next level"
+    }
+  },
+  "Footer": {
+    "Privacy Policy": "Privacy Policy",
+    "Terms of Use": "Terms of Use",
+    "AboutUs": "About us"
+  },
+  "Login": {
+    "username": "username",
+    "email": "email",
+    "password": "password",
+    "Sign In Title": "Sign In",
+    "Sign In Action": "Sign In",
+    "Sign Up Title": "Sign Up",
+    "Sign Up Action": "Sign Up",
+    "Go Home": "Go Home",
+    "Forgot password": "Forgot password?",
+    "Change Password": "Change Password",
+    "errors": {
+      "auth/user-not-found": "There is no user with this email"
+    }
+  },
+  "stay": "stay",
+  "table": {
+    "title": "Poker Table",
+    "description": "Join poker table now.",
+    "RotatePhone": "Rotate you phone to display the table.",
+    "SomethingWentWrong": "Something went wrong",
+    "DoesNotExist": "This table does not exist",
+    "Popup": {
+      "Add Chips": "Add Chips",
+      "BuyIn": "Buy In",
+      "Ok": "Ok",
+      "Cancel": "Cancel",
+      "You can bring between": "You can bring between",
+      "and": "and",
+      "chips": "chips",
+      "min": "min",
+      "max": "max",
+      "sign in": "sign in",
+      "RedirectDialogMessage": "Please sign in to play the game"
+    },
+    "Stand": {
+      "Stand": "Stand",
+      "Keep Playing": "Keep Playing"
+    },
+    "BackToGame": "Back To Game",
+    "Auto Muck": "Auto Muck",
+    "HandName": {
+      "High Card": " High ",
+      "Pair": "Pair",
+      "Two Pair": "Two Pair",
+      "Three of a Kind": "Set",
+      "Straight": "Straight",
+      "Flush": "Flush",
+      "Full House": "Full House",
+      "Four of a Kind": "Quads",
+      "Straight Flush": "Straight Flush",
+      "Royal": " Royal"
+    },
+    "Chat": {
+      "Dealer": "Dealer",
+      "Chat": "Chat",
+      "NewHandStarted": "New hand started",
+      "DealtToBoard": "Dealt to board",
+      "shows": "shows",
+      "mucks": "mucks",
+      "wins": "wins",
+      "chips": "chips",
+      "with": "with",
+      "Send": "Send",
+      "YourMessage": "Your message..."
+    },
+    "tournamentInfo": {
+      "MyPosition": "My Position: {0} of {1}",
+      "firstPlace": {
+        "Start": "1st place",
+        "End": "with {0} chips"
+      },
+      "NextLevel": "Next Level: {0} in"
+    },
+    "ProfileInfo": {
+      "Won": "Won:",
+      "Games": "Games:"
+    },
+    "TournamentTopPlayers": {
+      "TopPlayersInTournament": "Top players in Tournament",
+      "Rank": "Rank",
+      "Name": "Name",
+      "Chips": "Chips",
+      "Prize": "Prize"
+    }
+  },
+  "MultiPage": {
+    "Status": {
+      "RegisterAction": "Register",
+      "UnregisterAction": "Unregister",
+      "TournamentStatus": "Tournament already",
+      "undefined": "does not exist or has already ended",
+      "later": "will be a little later"
+    },
+    "PlayersList": {
+      "Name": "Name",
+      "Chips": "Chips"
+    },
+    "TablesPreview": {
+      "Table": "Table",
+      "Players": "Players",
+      "Blinds": "Blinds",
+      "OpenTable": "Open Table",
+      "OpenMyTable": "Open My Table"
+    }
+  },
+  "VerifyPage": {
+    "Verification": "Verification",
+    "Msg": {
+      "Info": "Please verify your email, this is required to PLAY the game.",
+      "ArrivalInfo": "",
+      "Success": "We sent you an email to verify your email address (check your spam or junk folder if you did not receive this email).",
+      "Fail": "Failed to send the email, please try again in a minute."
+    },
+    "Button": {
+      "Back": "Go Back",
+      "Verify": "Verify email",
+      "Lobby": "Go to lobby"
+    }
+  },
+  "SettingsPage": {
+    "ChangeUsername": {
+      "Title": "Change username",
+      "EnterNewUsername": "Enter new username",
+      "Change": "Change",
+      "UpdateSuccessful": "Update successful"
+    },
+    "UploadAvatar": {
+      "Title": "Upload avatar",
+      "UploadNewAvatar": "Upload new avatar",
+      "ChooseFile": "Choose file...",
+      "MaximumFileSize": "The maximum file size allowed is 256KB."
+    },
+    "ChangePassword": {
+      "Title": "Change password",
+      "EnterYourPassword": "Enter your password:",
+      "EnterNewPassword": "Enter new password:",
+      "Change": "Change"
+    },
+    "Notification": {
+      "Title": "Notification",
+      "Notify me": "Notify me about my started tournaments and my messages in the messenger",
+      "Notify me note": "As of now only one of your devices can be notified",
+      "Notify": "Notify my device",
+      "PermissionNotGranted": "You didn't grant notification permission",
+      "SuccessfullyAdded": "This device successfully added for web notifications",
+      "SuccessfullyReplaced": "This device successfully replaced for web notifications",
+      "AlreadyAdded": "This device already subscribed for notifications"
+    }
+  },
+  "ProfilePage": {
+    "title": "User Profile",
+    "description": "User profile, awards and achievements in PokerGloss. You can see the number of games, wins, number of chips, your place in the overall game ranking, the percentage of wins and losses, all your combinations in free online poker.",
+    "RatingPlace": "Rating place:",
+    "SearchPlayers": "Search players",
+    "EnterUsernameHere": "enter username here...",
+    "NumberOfGames": "Number of games:",
+    "WonGames": "Won games:",
+    "MadeAllIn": "Made all-in:",
+    "MadeFold": "Made fold:",
+    "SurvivalLevel": "Survival Level:",
+    "SendMessage": "Send a message"
+  },
+  "MessengerPage": {
+    "title": "Messenger",
+    "description": "Send, write, private messages. You can send messages to any PokerGloss user.",
+    "Write a message": "Write a message...",
+    "Search people": "Search people",
+    "No chats yet": "No chats yet...",
+    "typing": "typing",
+    "yesterday": "yesterday"
+  },
+  "Notifications": {
+    "HasStarted": "has started!",
+    "JoinYourTable": "Join your table right now!",
+    "NewLevel": "New level",
+    "CongratulationsYouHaveEarned": "Congratulations! You've earned",
+    "chips": "chips!",
+    "times": "times!"
+  },
+  "AchievementMedal": {
+    "Level": "Level:",
+    "NextLevelReward": "Next level reward:",
+    "Chips": "chips"
+  },
+  "ChipHistoryPage": {
+    "title": "History of your chips",
+    "description": "You can see your chip history in PokerGloss. Chips for rewards, wins, bonuses and losses.",
+    "Date": "Date",
+    "Change": "Change",
+    "Type": "Type",
+    "Description": "Description"
+  },
+  "PurchaseListPage": {
+    "title": "Purchase history",
+    "description": "See your purchase history in PokerGloss. You can see what item you bought, for how many days, and for how many chips or gold coins.",
+    "Date": "Date",
+    "Unit": "Unit",
+    "Number": "Number",
+    "Price": "Price",
+    "TimeFrame": "Time Frame",
+    "TotalPrice": "Total Price",
+    "EmptyMessage": "You don't have any purchases",
+    "EmptyMessageLink": "go to market"
+  },
+  "MarketPage": {
+    "title": "PokerGloss Market",
+    "description": "Choose any item in the PokerGloss Marketplace. Buy VIP items or survival tickets with game chips or gold coins.",
+    "TabItems": "Items",
+    "TabOthers": "Others",
+    "Items": {
+      "glassOfWine": {
+        "Name": "Glass of wine"
+      },
+      "clover": {
+        "Name": "Clover"
+      },
+      "hourglass": {
+        "Name": "Hourglass",
+        "SpecialEffect1": "Increases time to make a betting action by 10%"
+      },
+      "piggyBank": {
+        "Name": "Piggy Bank"
+      },
+      "butterfly": {
+        "Name": "Butterfly"
+      },
+      "bee": {
+        "Name": "Bee"
+      },
+      "burger": {
+        "Name": "Burger"
+      },
+      "monster": {
+        "Name": "Monster"
+      },
+      "ghost": {
+        "Name": "Ghost"
+      },
+      "sword": {
+        "Name": "Sword"
+      },
+      "sunglasses": {
+        "Name": "Sunglasses"
+      },
+      "grayFish": {
+        "Name": "Gray Fish"
+      },
+      "martini": {
+        "Name": "Martini"
+      },
+      "lightBulb": {
+        "Name": "Light Bulb"
+      },
+      "iceCream": {
+        "Name": "Ice Cream"
+      },
+      "strawberry": {
+        "Name": "Strawberry"
+      },
+      "skull": {
+        "Name": "Skull"
+      },
+      "fireExtinguisher": {
+        "Name": "Fire Extinguisher"
+      },
+      "ship": {
+        "Name": "Ship"
+      },
+      "torturer" : {
+        "Name": "Torturer"
+      },
+      "hellAmulet": {
+        "Name": "Hell Amulet"
+      },
+      "smirkingDemon": {
+        "Name": "Smirking Demon"
+      },
+      "pacifier": {
+        "Name": "Pacifier"
+      },
+      "invisible": {
+        "Name": "Void"
+      },
+      "sunriseCocktail": {
+        "Name": "Sunrise Cocktail"
+      },
+      "cosmapolitanGlitch": {
+        "Name": "Cosmopolitan Glitch"
+      },
+      "shuriken": {
+        "Name": "Shuriken"
+      },
+      "grenade": {
+        "Name": "Grenade"
+      },
+      "goldenGlasses": {
+        "Name": "Golden Glasses"
+      },
+      "dinosaur": {
+        "Name": "Dinosaur"
+      },
+      "voodoo": {
+        "Name": "Voodoo"
+      },
+      "compass": {
+        "Name": "Compass"
+      },
+      "vintageCar": {
+        "Name": "Vintage Car"
+      },
+      "toyRobot": {
+        "Name": "Toy Robot"
+      },
+      "rip": {
+        "Name": "R.I.P."
+      },
+      "backlitPumpkin": {
+        "Name": "Backlit Pumpkin"
+      },
+      "gamepad": {
+        "Name": "Gamepad"
+      },
+      "rocket": {
+        "Name": "Rocket"
+      },
+      "tutanchamun": {
+        "Name": "Tutanchamun"
+      },
+      "cubicToyCat": {
+        "Name": "Cubic Cat"
+      },
+      "scubaGlasses": {
+        "Name": "Scuba Glasses"
+      },
+      "vendetta": {
+        "Name": "Vendetta"
+      },
+      "mummy": {
+        "Name": "Mummy"
+      },
+      "cupCoffee": {
+        "Name": "Cup Coffee"
+      },
+      "slippers": {
+        "Name": "Slippers"
+      },
+      "diverHelmet": {
+        "Name": "Diver Helmet"
+      }
+    },
+    "Products": {
+      "5tickets": {
+        "Name": "5 tickets"
+      }
+    },
+    "day": "day",
+    "days": "days",
+    "Discount": "Discount",
+    "TotalPrice": "Total cost",
+    "close": "close",
+    "buy": "buy",
+    "goToInventory": "go to inventory",
+    "goToSurvival": "go to survival",
+    "BoughtMessage": "The item is purchased, you have it in your inventory",
+    "vipAdvantages": "VIP advantages"
+  },
+  "InventoryPage": {
+    "title": "Shopping inventory",
+    "description": "View all your purchases. You can view all your purchases on PokerGloss.",
+    "EmptyMessage": "You don't have any items",
+    "EmptyMessageLink": "go to market",
+    "MyPurchasesLink": "My Purchases",
+    "ItemExpiration": {
+      "minLeft": "min left",
+      "hoursLeft": "hours left",
+      "days": "days",
+      "daysLeft": "days left"
+    },
+    "Infinity": "Infinity"
+  },
+  "AboutUsPage": {
+    "title": "The PokerGloss team",
+    "description": "Learn about the team at PokerGloss. You can read about the creators, the authors of the free online poker site.",
+    "OurMissionHeader": "Our mission",
+    "OurMissionText": "This has become a publicly sourced poker website with no mission but to show case it.",
+    "OurTeamHeader": "Our team",
+    "DennisGloss": {
+      "Name": "Dennis Gloss",
+      "Position": "Chief Executive of Everything",
+      "Text": "Hi, I'm the owner and maintainer of this project which used to be called PokerBlow. Unfortunately, I ran out of money and had to close it. Years later I found strength to refactor it and present it to you as PokerGloss. Click on the GitHub link below to find more technical details."
+    },
+    "ContactUsHeader": "Contact Us",
+    "ContactUsText": "To report a problem, make a suggestion or to just say hello, you can email me at dennisgloss23@gmail.com or create an issue on github.com/glossd/pokergloss."
+  },
+  "Poker": "Poker",
+  "autoConfig": {
+    "Muck": "Auto muck",
+    "TopUp": "Auto top up",
+    "Rebuy": "Auto rebuy"
+  },
+  "TournamentStartTime": {
+    "Today": "Today",
+    "in": "in",
+    "isStarted": "is Started",
+    "secs": "secs",
+    "mins": "mins"
+  },
+  "Messenger": "Messenger",
+  "TournamentPrizeDialog": {
+    "Congratulations": "Congratulations!",
+    "GoodGame": "Good Game!",
+    "GoToLobby": "Go to Lobby",
+    "Stay": "Stay",
+    "YouAreOn": "You are on"
+  },
+  "DailyAssignments": "Daily Assignments",
+  "dailyAssignments": {
+    "prefix": {
+      "Win with": "Win with",
+      "Lose with": "Lose with",
+      "Win with hand": "Win with hand",
+      "Lose with hand": "Lose with hand",
+      "Win with Pair of": "Win with Pair of",
+      "Lose with Pair of": "Lose with Pair of",
+      "Bust": "Bust",
+      "Defeat": "Defeat",
+      "Scare away": "Scare away",
+      "Win": "Win",
+      "Win SitNGo": "Win SitNGo",
+      "Win Multi SitNGo": "Win Multi SitNGo",
+      "Share pot with": "Share pot with"
+    },
+    "suffix": {
+      "players": "player(s)",
+      "in hands": "in hands",
+      "Live": "Live"
+    },
+    "OutOf": "out of",
+    "times": "time(s)"
+  },
+  "Prize": "Prize",
+  "face": {
+    "A": "Ace",
+    "K": "King",
+    "Q": "Queen",
+    "J": "Jack"
+  },
+  "facePlural": {
+    "A": "Aces",
+    "K": "Kings",
+    "Q": "Queens",
+    "J": "Jacks",
+    "10": "10's",
+    "9": "9's",
+    "8": "8's",
+    "7": "7's",
+    "6": "6's",
+    "5": "5's",
+    "4": "4's",
+    "3": "3's",
+    "2": "2's"
+  },
+  "Survival": {
+    "ticketsLeft": "ticket(s) left",
+    "noTicketsMessage": "You can obtain a ticket by winning a Freeroll",
+    "Spin": "Spin",
+    "master": {
+      "paradiseMessage": "As part of your training I've created this simulator of the worlds. You're in heaven now. Raziel plays very passively. It shouldn't be too hard to win.",
+      "spiritWorldMessage": "This is Spirit World. You have to analyze spirits you're playing with. It's not as hard as in Hell but be cautious.",
+      "hellMessage1": "You've arrived to Hell. First you will have to face the elders. They've lost their skin and flesh after being in Hell for centuries. They play more aggressive than spirits.",
+      "hellMessage2": "Now you'll be playing with demons. There will be up to three of them. The aggression and tightness will be more diverse.",
+      "hellMessage3": "Congratulations! Now you've reached Archdemons. Be careful, don't let your emotions control you or you will face your defeat."
+    },
+    "anonymous": {
+      "title": "You are not signed up",
+      "PlayAnonymously": "Play anonymously",
+      "SignUp": "Sign up",
+      "YouCanPlay": "You can play anonymously but you won't be able to receive a prize since you don't have an account.",
+      "OfferPool": "we offer pool of only 50 survivals for anonymous users"
+    },
+    "noTickets": {
+      "title": "No tickets left",
+      "Play": "Play",
+      "Close": "Close",
+      "text": "You don't have any tickets left. You can get a survival ticket by taking any winning place in any tournament. Or you can play without getting any prize or score."
+    }
+  },
+  "Coins": {
+    "title": "Buy gold coins",
+    "description": "Buying gold coins on PokerGloss. On this page you can buy gold coins.",
+    "coins": "coins",
+    "BuyCoins": "Buy Coins",
+    "CoinsUnavailable": "As of now purchase of coins is not available...",
+    "rubles": "rub",
+    "AboutToBuy": "You are about to buy",
+    "OldPrice": "Old price:",
+    "Discount": "Discount:",
+    "ToPay": "To pay:",
+    "redirectMessage": "After confirmation, you will be directed to the payment page",
+    "ConfirmPurchase": "Confirm Coin Purchase",
+    "IConfirm": "I confirm",
+    "ConfirmCheckBox": "I confirm that I have read and agree to the terms of use."
+  },
+  "ForgotPassword": {
+    "title": "Restore password",
+    "description": "Restore your password for free online PokerGloss. On this page you can recover your forgotten password."
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Read, watch, and learn about our Privacy Policy. You can read and learn about PokerGloss's Privacy Policy."
+  },
+  "TermsOfUse": {
+    "title": "Terms of Use",
+    "description": "Read, watch, and learn the Terms of Use. You can read and understand the PokerGloss Terms of Use."
+  },
+  "Rating": {
+    "title": "Player Ratings",
+    "description": "List, top, rating of the best players. You can about to read the PokerGloss player ranking list."
+  },
+  "VerifyEmail": {
+    "title": "Email verification",
+    "description": "Check, confirm your email. You can verify your email for PokerGloss."
+  },
+  "Settings": {
+    "title": "Settings",
+    "description": "Poker, password, notifications, avatar upload, password change in PokerGloss. You can change settings in any of the sections."
+  },
+  "Signin": {
+    "title": "Sign in to PokerGloss",
+    "description": "Come in and play at PokerGloss. Enter your username and password to play free online poker."
+  },
+  "Signup": {
+    "title": "Join PokerGloss",
+    "description": "Sign up and play at PokerGloss. Enter your username and password to play free online poker."
+  },
+  "TablesPage": {
+    "title": "PokerGloss table",
+    "description": "Play cash at the table in free online poker Texas Hold'em. Go to any table and choose your preferences in PokerGloss."
+  },
+  "ErrorPage": {
+    "title": " Error Page",
+    "description": "Sorry, this page doesn't exist",
+    "defaultButton": "GO TO HOMEPAGE"
+  },
+  "tutorial": {
+    "title": "How to play poker - Interactive Tutorial",
+    "description": "Learn how to play poker with easy-to-follow interactive poker tutorial.",
+    "pokerHands": {
+      "opponentCards": "Opponent",
+      "tableCards": "Table",
+      "studentCards": "Your cards",
+      "allPokerHands": "Choose the assembled combination:",
+      "rightAnswer": "Great, that's the right answer!",
+      "wrongAnswer": "This is wrong answer, think again"
+    },
+    "lessons": {
+      "1": {
+        "1": "Welcome to your first lesson! Behind me you can see a poker table for six players. Your goal is to take chips from other players.",
+        "2": "In Texas Hold'em everybody gets 2 cards. Afterwards there will be dealt 5 cards to the table. The player with the strongest combination of cards wins. Will get to it later.",
+        "3": "Each player has a position on the table. Right now we're interested in Big Blind and Small Blind. Player with BB (Big Blind) is forced to put a minimal bet on the table and Small Blind must put half of BB chips.",
+        "4": "It's your time to decide which action to make. If you FOLD you will be out of the game until the next deal. But remember when you fold you lose any chips you put on the table before. The CALL means someone did bet more than you. If you call you put the same number of chips to stay in the game. When you RAISE other players have to put the chips you raised on the table or fold. If everyone folds you win and take all the wagered chips. Let's make a CALL.",
+        "5": "No one raised and the PreFlop round has ended. Three cards were dealt to the table, Flop round has started. The question for you is what kind of combination you have on the table. I'll give you a hint, look at the Jacks.",
+        "6": "As of now you have a pair of the highest card of the table. No one can have Flush or Straight. It seems to be a good opportunity to bet. Let's bet half of the pot, 6 chips.",
+        "7": "Three players folded. There are 30 chips in the pot. Each poker combination consists of 5 cards. Now there's going to be the sixth card on the table. Confusing? Well, you just have to find the best 5 cards with the highest combination. That will be your poker hand.",
+        "8": "And the Turn round gave us Ace of clubs. It's not good. You're no longer have the highest pair. Unfortunately, you act first not knowing what kind of reaction your opponents have. 30 chips in the pot is good enough for now. Let's just Check.",
+        "9": "Great! You've got Straight! 10, J, Q, K, A. Let's bet 15 chips, half of the pot.",
+        "10": "Congratulations! You took 37 chips from other players. The last one had Two Pair of Q's and 10's which is weaker than Straight. Great job! You can get to the next lesson now or process all the information and return later."
+      },
+      "2": {
+        "1": "Welcome to the 2nd lesson! You've got a very good pocket cards: Pair of Queens. You're big blind and act last on PreFlop. Let's see what other players will do.",
+        "2": "Too many players called the raise of IVORY. You've got too strong cards to let all your opponents stay in the game. Let's re-raise 3 times the call, RAISE to 18 chips.",
+        "3": "Great flop! You've got Set of Queens! Let's BET half a pot, 31 chips.",
+        "4": "IVORY raised you and has gone all in. We're not scared to CALL. Let's see the cards!",
+        "5": "It seems like your opponent has higher ranking hand: Straight. Don't worry, you made all the right moves. Let's just see the Turn and River. Luck is an undisputed part of poker.",
+        "6": "Luck is definitely on your side! You've won with Full House! Let's go to the next tutorial."
+      },
+      "3": {
+        "1": "Welcome to the 3d lesson! You busted out IVORY in previous lesson. Now it's only 5 players at the table.",
+        "2": "With your cards you could have Flush or Straight. Only two gaps. Queen as the high card. Your chances are pretty good. Let's CALL.",
+        "3": "In spite of having Pair of Queens it is the lowest. Someone could easily have a pair of Aces or Kings. Unfortunately you act first. Let's check and see how other players will react.",
+        "4": "So Diamond bet a whole pot. He's probably having an Ace. The right move is to FOLD.",
+        "5": "That was a classic poker bluff. Diamond was in the dealer position. The player in that position acts last on PostFlop (Flop, Turn and River rounds). Everyone checked hence he thought no one had anything good. He made a bet, everyone folded and he won the pot."
+      },
+      "4": {
+        "1": "Welcome to the 4th lesson! You've got suited connectors without gaps. They are the most likely to make Straight or Flush. Let's call.",
+        "2": "Now you're in the dealer position. It means you will act last on PostFlop. Considering this round will end now you should CALL.",
+        "3": "The situation is not too bad. You already have a pair and Flush draw. Flush or Straight draw means you miss only one card. Let's CALL",
+        "4": "Great! You've got Set of Tens and Flush draw on Turn. But thinking about Diamond's move he's probably having the ten of clubs. Your supporting card 9 of hearts is not too high so you shouldn't show any aggression, just CALL.",
+        "5": "You can lose only if someone has 10 and King or two Kings in their hands which is unlikely. After all you only have to call 28 chips to stay in the game so the choice is obvious - CALL",
+        "6": "You and Diamond have the same combination of five best cards therefore you shared the pot."
+      },
+      "5": {
+        "1": "Welcome to the 5th tutorial! You should consider blinds as a payment for staying in the game. 7 and 2 off-suited are the worst pocket cards. Then goes 82o, 83o. The price to see the flop would cost 5 big blinds and probably nothing good will come. If you called it'd be considered limping. So FOLD.",
+        "2": "A player don't have to show his cards if everyone folded. Diamond mucked. We may never know whether he was bluffing or not. You can disable your auto-muck configuration in the settings.",
+        "3": "You've got suited connectors with one gap and only half of BB to CALL. You should do it.",
+        "4": "Splendid! It's an open-ended Straight Flush draw. Any spade cards (9 in total) from the deck would make a flush. Any 9 or 4 (8 cards) would make a straight. Overall there are 15 cards in the deck. There's 54% one of them will be dealt. Let's BET half of the pot, 4 chips.",
+        "5": "At least one of them should have a pair of Aces. KENNY seems to be quite aggressive. For now let's CALL.",
+        "6": "Calm down. You've got a Straight Flush. No one at the table can beat that but someone will probably make a bet. Let's play it slow. Just pretend you have a weak hand. Let's CHECK.",
+        "7": "You could re-raise but you'd give out that you have a strong hand. There's the River round, you don't want to scare anyone especially Diamond. Let them raise on the River by CALLing now.",
+        "8": "The strategy is the same - Slow play. Just CHECK, let them raise. When it will be your turn you will re-raise. That move called check-raise.",
+        "9": "Great! Our rival has fallen into our trap. If you acted aggressively he wouldn't probably wagered that much. Now you will take him by surprise. Go ALL IN.",
+        "10": "Great Job! Now you know the basics of poker. You can train your poker skills in single player survival mode."
+      }
+    }
+  },
+  "WelcomeSignUpPopup": {
+    "title": "Welcome chips!",
+    "action": "Great",
+    "paragraph1": "You got",
+    "paragraph2": "FREE CHIPS!"
+  },
+  "Landing": {
+    "videoId": "vc3lA_4mUw4",
+    "welcomeTo": "Welcome to",
+    "lobby": "lobby",
+    "advantage1": "Play poker for free with virtual chips, which you can't buy for real money",
+    "advantage2": "Watch poker games without registration",
+    "advantage3": "Poker Single Player in Survival mode",
+    "advantage4": "Create your own public or private tables and tournaments with customizable options",
+    "tutorial": "Learn to play poker in Tutorial Mode",
+    "tournament": {
+      "name": "Saturday tournament on",
+      "time": "at 15:00 UTC. ",
+      "prize": "The winner receives the gold crown."
+    },
+    "anyQuestions": "Still have questions? You will find the necessary information on the \"info.pokergloss.com\" website.",
+    "info": "info"
+  }
+}

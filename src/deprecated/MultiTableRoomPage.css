@@ -1,0 +1,79 @@
+.multi-table {
+    display: flex;
+}
+
+.multi-table-available-button {
+    padding: 2vw 0 0 2vw;
+    color: white;
+}
+
+.multi-table-info-root {
+    width: 66%;
+    color: white;
+    display: flex;
+}
+
+.multi-table-info {
+    width: 100%;
+    padding: 2vw 2vw 0 2vw;
+    color: white;
+}
+
+.multi-table-font-size-desktop {
+    font-size: 1.1vw;
+}
+
+.multi-table-font-size-mobile {
+    font-size: 3vw;
+}
+
+.multi-table-white-line {
+    background-color: white;
+}
+
+.multi-table-registration-btn {
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+.multi-table-room-vertical-line {
+    width: 1px;
+    background: white;
+}
+
+.multi-table-places-distribution {
+    margin-left: 2vw;
+}
+
+.open-my-table-message {
+    color: rgb(0 190 255);
+}
+
+.multi-room-video-container {
+    margin-top: 2vw;
+}
+
+.multi-room-video {
+    width: 100%;
+}
+
+@media (max-width: 650px) {
+    .multi-room-video {
+        height: 100%;
+    }
+}
+
+.multi-table-market-prize-default {
+    display: flex;
+    align-items: center;
+    color: #00c5ff;
+}
+.multi-table-market-prize-crown {
+    display: flex;
+    align-items: center;
+    color: #00ff00 !important;
+}
+.multi-table-icon {
+    width: 50px;
+    margin: 0 3px;
+}

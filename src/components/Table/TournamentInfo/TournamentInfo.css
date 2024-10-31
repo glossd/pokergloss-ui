@@ -1,0 +1,21 @@
+.tournament-info-root-table {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 0 1vw;
+    font-size: 1vw;
+}
+
+.all-multi-room-players {
+    position: absolute;
+    right: 0;
+    bottom: 5vw;
+}
+
+.next-level {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-place-name {
+    color: blueviolet;
+}
