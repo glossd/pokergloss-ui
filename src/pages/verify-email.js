@@ -110,7 +110,7 @@ const mobileStyles = makeStyles(() => ({
 }));
 
 const actionCodeSettings = {
-  url: "https://pokerblow.com/refresh-token"
+  url: "https://pokergloss.com/refresh-token"
 }
 
 const VerifyEmail = ({isJustSignUp}) => {

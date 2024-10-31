@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import {newEvent} from "../../redux/actions";
 import {getCurrentUserToken} from "../../auth/Firebase";
 import ReconnectingWebSocket from "reconnecting-websocket";
-import {extractEvents} from "../wsUtil";
+import {extractEvents, wsHost} from "../wsUtil";
 
 const MessengerWS = ({newEvent, isAuthenticated, text, chosenChat}) => {
   const [hookWS, setHookWS] = useState()
@@ -39,17 +39,6 @@ const MessengerWS = ({newEvent, isAuthenticated, text, chosenChat}) => {
   }, [text, chosenChat])
 
   return <div/>
-}
-
-function wsHost() {
-  let baseHost = "wss://pokerblow.com"
-  if (process.env.NEXT_PUBLIC_USE_PROXY) {
-    baseHost = "ws://localhost:6565"
-  }
-  if (process.env.NEXT_PUBLIC_DEV) {
-    baseHost = "wss://uat.pokerblow.com"
-  }
-  return baseHost
 }
 
 

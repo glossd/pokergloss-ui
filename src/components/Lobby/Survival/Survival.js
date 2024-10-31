@@ -167,7 +167,7 @@ const Survival = ({isAuthenticated, isEmailVerified, isAnonymous}) => {
       }
       <AnonymousDialog/>
       <NoTicketsDialog/>
-      <a className={adaptClasses.articleLink} href="https://info.pokerblow.com/articles/survival" target="_blank">
+      <a className={adaptClasses.articleLink} href="https://info.pokergloss.com/articles/survival" target="_blank">
         <HelpOutlineIcon/> {t("lobby.Survival")}
       </a>
     </div>

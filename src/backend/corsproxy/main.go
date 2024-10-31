@@ -12,13 +12,13 @@ import (
 
 var (
 	// host:port to proxy requests to
-	target = "uat.pokerblow.com:443"
+	target = "uat.pokergloss.com:443"
 	// host:port to listen on
 	listen = ":6969"
 	// protocol used by the target
 	protocol = "https"
 	// host header to be used for the proxy request
-	host = "uat.pokerblow.com"
+	host = "uat.pokergloss.com"
 	// origin header to be used for the proxy request
 	origin = "http://192.168.1.67:3000"
 	// enable / disable default access control methods

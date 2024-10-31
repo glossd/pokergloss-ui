@@ -88,7 +88,7 @@ const BuyProductDialog = ({currentProduct, setCurrentProduct}) => {
 
                 {
                   isSurvivalTickets &&
-                  <a href="https://info.pokerblow.com/articles/survival" target="_blank">
+                  <a href="https://info.pokergloss.com/articles/survival" target="_blank">
                     <HelpOutlineIcon/> {t("lobby.Survival")}
                   </a>
                 }

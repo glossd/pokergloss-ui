@@ -37,7 +37,7 @@ function ForgotPassword() {
     setEmailMessage('We\'ve sent password reset instructions to your email address')
 
     let actionCodeSettings = {
-      url: 'https://pokerblow.com/signin',
+      url: 'https://pokergloss.com/signin',
     }
 
     firebase.auth().sendPasswordResetEmail(email, actionCodeSettings).catch((error) => {

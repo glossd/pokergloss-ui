@@ -172,7 +172,7 @@ const BuyItemDialog = ({currentItem, setCurrentItem}) => {
                       {`${t("MarketPage.TotalPrice")}: ${unitPrice * units} ${t(currentItem.saleType)}`}
                     </div>
                   </>}
-                  {isVip && <a href="https://info.pokerblow.com/articles/vip" target="_blank"><HelpOutlineIcon/> {t("MarketPage.vipAdvantages")}</a>}
+                  {isVip && <a href="https://info.pokergloss.com/articles/vip" target="_blank"><HelpOutlineIcon/> {t("MarketPage.vipAdvantages")}</a>}
                   {error && <div className={"market-dialog-error"}>{error}</div>}
                 </div>
             }
