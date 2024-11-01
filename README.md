@@ -1,6 +1,7 @@
 # PokerGloss UI
 Front-end of [PokerGloss.com](https://PokerGloss.com)  
-The story and back-end are in [glossd/pokergloss](https://github.com/glossd/pokergloss)
+The story and back-end are in [glossd/pokergloss](https://github.com/glossd/pokergloss)  
+[Info Portal](https://github.com/glossd/pokergloss-info)
 
 ### Acknowledgment
 I want to thank two people who worked for me on the UI: [Kirill Vasilev](https://github.com/Kir10) and Artem Kopylov.
