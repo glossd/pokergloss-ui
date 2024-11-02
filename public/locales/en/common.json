@@ -560,12 +560,12 @@
     "title": "The PokerGloss team",
     "description": "Learn about the team at PokerGloss. You can read about the creators, the authors of the free online poker site.",
     "OurMissionHeader": "Our mission",
-    "OurMissionText": "This has become a publicly sourced poker website with no mission but to show case it.",
+    "OurMissionText": "This is a public-sourced poker website with no mission but to showcase it.",
     "OurTeamHeader": "Our team",
     "DennisGloss": {
       "Name": "Dennis Gloss",
       "Position": "Chief Executive of Everything",
-      "Text": "Hi, I'm the owner and maintainer of this project which used to be called PokerBlow. Unfortunately, I ran out of money and had to close it. Years later I found strength to refactor it and present it to you as PokerGloss. Click on the GitHub link below to find more technical details."
+      "Text": "Hi, I'm the owner and maintainer of this project, which used to be called PokerBlow. Unfortunately, I ran out of money and had to close it. Years later, I found the strength to refactor it and present it to you as PokerGloss. Click on the GitHub link below to see more technical details."
     },
     "ContactUsHeader": "Contact Us",
     "ContactUsText": "To report a problem, make a suggestion or to just say hello, you can email me at dennisgloss23@gmail.com or create an issue on github.com/glossd/pokergloss."
@@ -733,51 +733,51 @@
     },
     "lessons": {
       "1": {
-        "1": "Welcome to your first lesson! Behind me you can see a poker table for six players. Your goal is to take chips from other players.",
-        "2": "In Texas Hold'em everybody gets 2 cards. Afterwards there will be dealt 5 cards to the table. The player with the strongest combination of cards wins. Will get to it later.",
-        "3": "Each player has a position on the table. Right now we're interested in Big Blind and Small Blind. Player with BB (Big Blind) is forced to put a minimal bet on the table and Small Blind must put half of BB chips.",
-        "4": "It's your time to decide which action to make. If you FOLD you will be out of the game until the next deal. But remember when you fold you lose any chips you put on the table before. The CALL means someone did bet more than you. If you call you put the same number of chips to stay in the game. When you RAISE other players have to put the chips you raised on the table or fold. If everyone folds you win and take all the wagered chips. Let's make a CALL.",
-        "5": "No one raised and the PreFlop round has ended. Three cards were dealt to the table, Flop round has started. The question for you is what kind of combination you have on the table. I'll give you a hint, look at the Jacks.",
+        "1": "Welcome to your first lesson! Behind me, you can see a poker table for six players. Your goal is to take chips from other players.",
+        "2": "In Texas Hold'em each player gets 2 cards. Later, 5 cards are dealt to the table. The player with the strongest combination of cards wins.",
+        "3": "Every player has a position on the table. Now we're interested in Big Blind and Small Blind. The player with BB (Big Blind) is forced to put a minimal bet on the table. SB (Small Blind) must put half of BB chips.",
+        "4": "It's your time to decide which action to take. If you FOLD, you are out of the game until the next deal, plus you lose any chips you put on the table before. If you see CALL, it means someone has a higher bet than you. If you choose to call, you put the same number of chips to stay in the game. When you RAISE, other players have to match the amount or fold. If everyone folds, you win and take all the wagered chips. Let's CALL.",
+        "5": "No one raised. Three cards were dealt to the table. This round is called Flop. The question for you is what kind of combination you have on the table now. I'll give you a hint - look at the Jacks.",
         "6": "As of now you have a pair of the highest card of the table. No one can have Flush or Straight. It seems to be a good opportunity to bet. Let's bet half of the pot, 6 chips.",
-        "7": "Three players folded. There are 30 chips in the pot. Each poker combination consists of 5 cards. Now there's going to be the sixth card on the table. Confusing? Well, you just have to find the best 5 cards with the highest combination. That will be your poker hand.",
-        "8": "And the Turn round gave us Ace of clubs. It's not good. You're no longer have the highest pair. Unfortunately, you act first not knowing what kind of reaction your opponents have. 30 chips in the pot is good enough for now. Let's just Check.",
+        "7": "Three players folded. There are 30 chips in the pot. Each poker combination consists of 5 cards. But there's going to be the sixth card on the table. Confusing? Well, you just have to find the best 5 cards with the highest combination. That will be your poker hand.",
+        "8": "And the Turn round gave us an Ace of clubs. Someone might have an ace and beat you. Unfortunately, you act first without seeing the reaction of your opponents. 30 chips in the pot is good enough for now. Let's simply CHECK.",
         "9": "Great! You've got Straight! 10, J, Q, K, A. Let's bet 15 chips, half of the pot.",
-        "10": "Congratulations! You took 37 chips from other players. The last one had Two Pair of Q's and 10's which is weaker than Straight. Great job! You can get to the next lesson now or process all the information and return later."
+        "10": "Congratulations! You took 37 chips from other players. Your opponent had Two Pairs of Q's and 10's which is weaker than your Straight. Great job! You can get to the next lesson now or process all the information and return later."
       },
       "2": {
         "1": "Welcome to the 2nd lesson! You've got a very good pocket cards: Pair of Queens. You're big blind and act last on PreFlop. Let's see what other players will do.",
-        "2": "Too many players called the raise of IVORY. You've got too strong cards to let all your opponents stay in the game. Let's re-raise 3 times the call, RAISE to 18 chips.",
-        "3": "Great flop! You've got Set of Queens! Let's BET half a pot, 31 chips.",
+        "2": "Two players called IVORY's bet. Because you have amazing starting cards, we don't want them to stay in the game and wait for their Straight or Flush.  Let's re-RAISE 3 times the bet. RAISE to 18 chips.",
+        "3": "Great Flop! You've got a Set of Queens! Let's BET half a pot, 31 chips.",
         "4": "IVORY raised you and has gone all in. We're not scared to CALL. Let's see the cards!",
-        "5": "It seems like your opponent has higher ranking hand: Straight. Don't worry, you made all the right moves. Let's just see the Turn and River. Luck is an undisputed part of poker.",
-        "6": "Luck is definitely on your side! You've won with Full House! Let's go to the next tutorial."
+        "5": "It seems like your opponent has a higher-ranking hand: Straight. Don't worry! You made all the right moves. Let's see the other two cards. Luck is an undisputed part of poker.",
+        "6": "Luck is definitely on your side! You've won with Full House! Are you ready for the next lesson?!"
       },
       "3": {
-        "1": "Welcome to the 3d lesson! You busted out IVORY in previous lesson. Now it's only 5 players at the table.",
-        "2": "With your cards you could have Flush or Straight. Only two gaps. Queen as the high card. Your chances are pretty good. Let's CALL.",
-        "3": "In spite of having Pair of Queens it is the lowest. Someone could easily have a pair of Aces or Kings. Unfortunately you act first. Let's check and see how other players will react.",
+        "1": "Welcome to your 3d lesson! You busted out IVORY in the previous lesson. Now there are only 5 players left.",
+        "2": "With your cards, you could potentially have a Flush or Straight. Only two gaps with Queen as the high card. Your chances are pretty good. Let's CALL!",
+        "3": "In spite of having Pair of Queens, it is the lowest pair. Someone could easily have a pair of Aces or Kings. Unfortunately, you act first. Let's check and see how other players will react.",
         "4": "So Diamond bet a whole pot. He's probably having an Ace. The right move is to FOLD.",
-        "5": "That was a classic poker bluff. Diamond was in the dealer position. The player in that position acts last on PostFlop (Flop, Turn and River rounds). Everyone checked hence he thought no one had anything good. He made a bet, everyone folded and he won the pot."
+        "5": "That was a classic poker bluff. Diamond was in the D (Dealer) position. The player in that position always acts last on PostFlop rounds. Because everyone checked, Diamond thought no one had anything good. He made a bet, everyone folded, and he won the pot."
       },
       "4": {
-        "1": "Welcome to the 4th lesson! You've got suited connectors without gaps. They are the most likely to make Straight or Flush. Let's call.",
-        "2": "Now you're in the dealer position. It means you will act last on PostFlop. Considering this round will end now you should CALL.",
-        "3": "The situation is not too bad. You already have a pair and Flush draw. Flush or Straight draw means you miss only one card. Let's CALL",
-        "4": "Great! You've got Set of Tens and Flush draw on Turn. But thinking about Diamond's move he's probably having the ten of clubs. Your supporting card 9 of hearts is not too high so you shouldn't show any aggression, just CALL.",
-        "5": "You can lose only if someone has 10 and King or two Kings in their hands which is unlikely. After all you only have to call 28 chips to stay in the game so the choice is obvious - CALL",
-        "6": "You and Diamond have the same combination of five best cards therefore you shared the pot."
+        "1": "Welcome to your 4th lesson! You've got suited connectors without gaps. They are the most likely to make Straight or Flush. Let's CALL.",
+        "2": "Now you're in the dealer position. It means you will act last on PostFlop rounds. Considering this round ends with your move, you should CALL.",
+        "3": "The situation is not too bad. You already have a pair and a Flush draw. A Flush or Straight draw means you miss only one card. Let's CALL.",
+        "4": "Great! You've got a Set of 10s and potential Flush. But considering Diamond's bet, he probably has the 10 clubs. Your supporting card, 9 of hearts, is not too high. You shouldn't show any aggression, just CALL.",
+        "5": "You can only lose if someone holds 10&King or two Kings, which is unlikely. After all, you only have to call 28 chips to stay in the game. The choice is obvious - CALL!",
+        "6": "You and Diamond have the same combination of five best cards. That's why you shared the pot."
       },
       "5": {
-        "1": "Welcome to the 5th tutorial! You should consider blinds as a payment for staying in the game. 7 and 2 off-suited are the worst pocket cards. Then goes 82o, 83o. The price to see the flop would cost 5 big blinds and probably nothing good will come. If you called it'd be considered limping. So FOLD.",
+        "1": "Welcome to your 5th tutorial! You should consider blinds as a payment for staying in the game. 7 and 2 off-suited are the worst pocket cards. Then goes 82o, 83o. The price to see the flop would cost 5 big blinds and probably nothing good will come. If you called it'd be considered limping. So FOLD.",
         "2": "A player don't have to show his cards if everyone folded. Diamond mucked. We may never know whether he was bluffing or not. You can disable your auto-muck configuration in the settings.",
-        "3": "You've got suited connectors with one gap and only half of BB to CALL. You should do it.",
-        "4": "Splendid! It's an open-ended Straight Flush draw. Any spade cards (9 in total) from the deck would make a flush. Any 9 or 4 (8 cards) would make a straight. Overall there are 15 cards in the deck. There's 54% one of them will be dealt. Let's BET half of the pot, 4 chips.",
-        "5": "At least one of them should have a pair of Aces. KENNY seems to be quite aggressive. For now let's CALL.",
-        "6": "Calm down. You've got a Straight Flush. No one at the table can beat that but someone will probably make a bet. Let's play it slow. Just pretend you have a weak hand. Let's CHECK.",
-        "7": "You could re-raise but you'd give out that you have a strong hand. There's the River round, you don't want to scare anyone especially Diamond. Let them raise on the River by CALLing now.",
-        "8": "The strategy is the same - Slow play. Just CHECK, let them raise. When it will be your turn you will re-raise. That move called check-raise.",
-        "9": "Great! Our rival has fallen into our trap. If you acted aggressively he wouldn't probably wagered that much. Now you will take him by surprise. Go ALL IN.",
-        "10": "Great Job! Now you know the basics of poker. You can train your poker skills in single player survival mode."
+        "3": "You've got suited connectors with one gap and only half of BB to CALL. You should go for it!",
+        "4": "Splendid! It's an open-ended Straight Flush draw. Any spade card (9 left) from the deck would make it a Flush for you. Any 9 or 4 card (8 overall) would make it a Straight. Summing it up, 15 cards are your cards. It's a 54% chance that one of them will be dealt. Let's BET half of the pot, 4 chips.",
+        "5": "KENNY is playing quite aggressively. He might have a Pair of Aces. For now, let's CALL.",
+        "6": "Calm down. You've got a Straight Flush. No one at the table can beat that.  I assume KENNY would make a bet again. Let's play it slow. Just pretend you have a weak hand. Let them fall into your trap. CHECK.",
+        "7": "You could re-RAISE but that action would give out your strong hand. There's another round, you don't want to scare anyone. Especially, Diamond. CALL.",
+        "8": "The strategy is the same - Slow Play. Just CHECK and let them raise. They won't expect you to re-RAISE them. This move is called check-raise.",
+        "9": "Great! Our rival has fallen into our trap. If you acted aggressively, he probably wouldn't wagered that much. Now, you will take him by surprise. Go ALL IN.",
+        "10": "Great Job! Now you know the basics of poker. You can train your poker skills in our single-player Survival arena!"
       }
     }
   },
