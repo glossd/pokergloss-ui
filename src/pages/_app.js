@@ -104,7 +104,7 @@ axios.interceptors.request.use(async config => {
 // Google Analytics
 // https://levelup.gitconnected.com/using-google-analytics-with-react-3d98d709399b
 const isProd = process.env.NODE_ENV && process.env.NODE_ENV !== 'development' && !process.env.NEXT_PUBLIC_DEV;
-isProd && ReactGA.initialize("UA-177900080-1");
+isProd && ReactGA.initialize("G-X4PTVTFNHC");
 isProd && getCurrentUser().then(user => {
   user && ReactGA.set({userId: user.uid})
 })
