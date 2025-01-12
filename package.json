@@ -58,7 +58,7 @@
     "startDev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
     "startCors": "NEXT_PUBLIC_CORS=true NEXT_PUBLIC_DEV=true next dev",
     "startLocal": "NEXT_PUBLIC_LOCAL=true next dev",
-    "startProd": "next start -p 3000",
+    "startProd": "next start -p $PGUI_PORT",
     "startProdLocal": "NODE_OPTIONS=--openssl-legacy-provider next start -p 3000",
     "proxyStart": "if [ \"$(uname)\" = \"Darwin\" ]; then src/backend/devproxy/proxy-mac; else src/backend/devproxy/proxy-inux; fi",
     "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
