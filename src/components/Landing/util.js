@@ -17,11 +17,14 @@ export function useOnScreen(ref, rootMargin = "0px") {
         }
       }, { rootMargin }
     );
-    if (ref.current) {
-      observer.observe(ref.current);
+    const currentElement = ref.current; // Cache the current DOM element
+    if (currentElement) {
+      observer.observe(currentElement);
     }
     return () => {
-      observer.unobserve(ref.current);
+      if (currentElement) {
+        observer.unobserve(currentElement);
+      }
     };
   }, []);
 
