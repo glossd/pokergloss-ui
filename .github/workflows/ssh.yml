@@ -33,7 +33,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           source: "/tmp/release.tar.gz"
-          target: "~/"
+          target: "~/front"
 
       - name: Extract Archive and Restart App
         uses: appleboy/ssh-action@v1.2.1
@@ -42,9 +42,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            mkdir -p ~/front
-            tar -xzf ~/release.tar.gz -C ~/front
-            rm ~/release.tar.gz
             cd ~/front
-            yetis apply -f yetisfront2.yml 
+            yetis apply -f yetisfront2.yml
 
