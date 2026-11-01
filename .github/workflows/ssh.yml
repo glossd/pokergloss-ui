@@ -33,15 +33,15 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           source: "/tmp/release.tar.gz"
-          target: "~/front"
+          target: "~/front2"
 
-      - name: Extract Archive and Restart App
-        uses: appleboy/ssh-action@v1.2.1
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
-          script: |
-            cd ~/front
-            yetis apply -f yetisfront2.yml
+#      - name: Extract Archive and Restart App
+#        uses: appleboy/ssh-action@v1.2.1
+#        with:
+#          host: ${{ secrets.SSH_HOST }}
+#          username: ${{ secrets.SSH_USERNAME }}
+#          key: ${{ secrets.SSH_KEY }}
+#          script: |
+#            cd ~/front
+#            yetis apply -f yetisfront2.yml
 
