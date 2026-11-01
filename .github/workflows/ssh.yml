@@ -24,7 +24,7 @@ jobs:
           tar --exclude='node_modules' \
               --exclude='.git' \
               --exclude='.next' \
-              -czf release.tar.gz .
+              -czf /tmp/release.tar.gz .
 
       - name: Copy Files via SCP
         uses: appleboy/scp-action@v1
@@ -32,7 +32,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
-          source: "release.tar.gz"
+          source: "/tmp/release.tar.gz"
           target: "~/."
 
       - name: Extract Archive and Restart App
