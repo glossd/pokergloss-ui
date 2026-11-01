@@ -33,7 +33,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           source: "/tmp/release.tar.gz"
-          target: "~/."
+          target: "~/"
 
       - name: Extract Archive and Restart App
         uses: appleboy/ssh-action@v1.2.1
