@@ -1,0 +1,50 @@
+name: Deploy Front
+
+on:
+  push:
+    branches: [cd]
+
+jobs:
+  deploy-prod:
+    runs-on: ubuntu-latest
+    environment: PokerGloss
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Create yetis specification
+        env:
+          FRONT_YETIS_SPEC: ${{ secrets.YETIS_SPEC }}
+        run: |
+          echo "$FRONT_YETIS_SPEC" > yetisfront2.yml
+
+      - name: Create Tar Archive
+        run: |
+          tar --exclude='node_modules' \
+              --exclude='.git' \
+              --exclude='.next' \
+              -czf release.tar.gz .
+
+      - name: Copy Files via SCP
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          source: "release.tar.gz"
+          target: "~/."
+
+      - name: Extract Archive and Restart App
+        uses: appleboy/ssh-action@v1.2.1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            mkdir -p ~/front
+            tar -xzf ~/release.tar.gz -C ~/front
+            rm ~/release.tar.gz
+            cd ~/front
+            yetis apply -f yetisfront2.yml 
+
