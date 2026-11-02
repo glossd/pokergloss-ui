@@ -31,6 +31,7 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 const FirstTutorial = ({setGirl, setPokerCombinations, clearGirl, goNext, inc, newEvent,
                          setCurrentUserPosition, setActionsVisibility}) => {
   const isMobile = useMediaQuery('(max-device-width: 1224px)');
+  const isPortrait = useMediaQuery('(orientation: portrait)', { noSsr: true })
   const { t } = useTranslation();
   const studentCards = ["Kh", "Jd"]
   const opponentCards = ["Qc", "Ts"]
@@ -79,7 +80,7 @@ const FirstTutorial = ({setGirl, setPokerCombinations, clearGirl, goNext, inc, n
     tableEvent(EventsTableEventTypeEnum.InitState, getInitTable())
     setCurrentUserPosition(1)
     setGirl({
-      message: t("tutorial.lessons.1.1"),
+      message: t("tutorial.lessons.1.1") + (isPortrait ? ` ${t("tutorial.betterTurnYourPhone")}` : ""),
       next: () => {
         stepHoleCards()
         ReactGA.event({
@@ -103,7 +104,7 @@ const FirstTutorial = ({setGirl, setPokerCombinations, clearGirl, goNext, inc, n
           action: "Pressed 1st holeCards GotIt",
         })
       }
-    }), 1500)
+    }), 2500)
   }
 
   const stepBlinds = () => {
@@ -118,7 +119,7 @@ const FirstTutorial = ({setGirl, setPokerCombinations, clearGirl, goNext, inc, n
           action: "Pressed 1st blinds GotIt",
         })
       }
-    }), 1500)
+    }), 2500)
   }
 
   const stepPreFlopAction = () => {
@@ -139,7 +140,7 @@ const FirstTutorial = ({setGirl, setPokerCombinations, clearGirl, goNext, inc, n
       messageSize: "large",
       highlight: { width: "50%", height: "6%", left: "50%", top: "90%"}
     });
-    setTimeout(showGirl, 500)
+    setTimeout(showGirl, 2500)
     setTimeout(() => subscribeAction(() => {
       stepFlop()
       ReactGA.event({
@@ -159,7 +160,7 @@ const FirstTutorial = ({setGirl, setPokerCombinations, clearGirl, goNext, inc, n
     setTimeout(() => setGirl({
       message: t("tutorial.lessons.1.5"),
       next: stepFlopPokerCombinations
-    }), 4500)
+    }), 5500)
   }
 
   const stepFlopPokerCombinations = () => {
